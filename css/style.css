@@ -1,118 +1,272 @@
 header{
-	padding-top: 20px;
-	padding-bottom: 20px;
-
+	height: 100px;
+	background-color: #FFFFFF;
+	/*display: inline-block;*/
 }
-.container{
-	width: 1180px;
+
+.header-container{
+	width: 1180px;	
 	margin-left: auto;
 	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	align-items: center;
 }
-.container-fuild{	
-	display: block;
-}
-.clearfix:after{
-	content:"";
-	display: block;
-	clear: both;
-}
-.logo-parent{
-	
-	display: inline-block;
-	vertical-align: middle;
+
+.logo{
 	width: 200px;
 	height: 60px;
 }
-.header-nav .container .logo-parent.left{
-	float: left;
-}
-.header-nav .container .header-nav .header-list.right{
-	float: right;
+
+.header-logo-parent{
+	/*display: inline-block;
+	vertical-align: middle;*/
+	/*margin: auto auto auto 0;*/
 }
 
-
-}
 .header-nav{
+	/*display: inline-block;
+	vertical-align: middle;*/
+	text-transform: uppercase;
+	/*margin: auto;*/
 
+}
+.header-social-icons{
+	/*display: inline-block;
+	vertical-align: middle;*/
+	/*margin: auto 0 auto auto;*/
+}
+.header-nav-list{
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 100px;
-	/*margin-bottom: auto;*/
 }
-.nav-list{
+.social-icon-google{
+	width: 50px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.social-icon-facebook{
+	width: 15px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.social-icon-youtube{
+	width: 30px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.social-icon-search{
+
+	width: 35px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* body  video */
+
+.banner-section{
+	width: 100%;
+	background-color: #CCCCCC;
 	
-	display: inline-block;
-	vertical-align: middle;
-	padding-left: 20px;
-	padding-right: 20px;
 }
-
 .banner-container{
-	background: #E6E6E6;
-	padding: 30px 0;
-	margin-top: 50px;
-}
-.banner-container .banner-child-container{
-	position: relative;
+	width: 1180px;	
+	margin-left: auto;
+	margin-right: auto;	
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: block;
+	height: 100%;
+	align-items: center;
 }
 .banner{
 	display: block;
-	width: 100%;	
-}
-.banner-container .banner-child-container .text-box{
-	position: absolute;
-	text-transform: uppercase;
-	color: white;
-	left: 30px;
-	height: 30px
-	
-}
-.banner-container .banner-child-container .text-box.line1{
-	bottom: 135px;	
-}
-.banner-container .banner-child-container .text-box.line2{
-	bottom: 100px;
-}
-.banner-container .banner-child-container .text-box.line3{
-	bottom: 65px;
-}
-.banner-container .banner-child-container .text-box.line4{
-	bottom: 30px;
+	width: 100%;
 }
 
-.banner-container .banner-child-container .white-html{
-	position: absolute;
-	width: 100px;
-	right: 30px;
-	bottom: 30px;
+/*video*/
+
+
+
+.section-video{
+	width: 100%;
+	background-color: #363E97;
 }
-.blue-box{
-	background-color: rgb(54,62,151);
-	padding-bottom: 90px;
+.video-title-container{
+	width: 1180px;	
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 100%;
+	align-items: center;
 }
-.blue-box h1{
+.video-title-container h1{
 	padding: 30px 0;
-	text-transform: uppercase;
 }
-.blue-box h1 a{
-	margin-left: 10px;
-	text-transform: lowercase;
 
+.video-container{
+	width: 1180px;	
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	align-items: center;
 }
-.blue-box .videos-parent .part-video{
-	background: grey;
+
+.video-container .part-container{
 	width: 570px;
 	height: 320px;
-	background-color: #F2F2F2;
+	background-color: #CCCCCC;
+	margin-bottom: 90px;
+	text-align: center;
+    
 }
-.blue-box .videos-parent .part-video.left{
-	float: left;
+/*.video-container .part-container h2{
+	margin: auto;
+	vertical-align:middle;
 	
+}*/
+
+
+
+
+/*NEWS*/
+
+
+.section-news{
+	background-color: #CCCCCC
+	width: 100%;
 }
-.blue-box .videos-parent .part-video.right{
-	float: right;
-	
+
+.news-title-container{
+	width: 1180px;	
+	margin-left: auto;
+	margin-right: auto;	
+	display: block;
+	height: 100%;
+	align-items: center;
 }
 
+.article-container .part-article{
+width: 270px;
+height: 270px;
+/*background-color: #E6E6E6;*/
+margin-top: 30px;
+}
 
+.article-container .part-article h1{
+	/*display: block;*/
+	width: 100%;
+	padding-left: 15px;
+	line-height: 60px;
+	height: 60px;
+}
 
+.article-container .part-article .image-block{
+	/*display: block;*/
+	width: 100%;
+	height: 210px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.section-news .news-title-container h1{
+	padding: 30px 0;
+}
+
+.article-container{	
+
+    width: 1180px;	
+	margin-left: auto;
+	margin-right: auto;	
+	height: 100%;
+	align-items: center;
+	padding-bottom: 90px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.part-article:nth-child(1),
+.part-article:nth-child(2),
+.part-article:nth-child(3),
+.part-article:nth-child(4){
+	margin-top: 0;
+}
+
+/*FEATURED*/
+
+.section-featured{
+	/*background-color: #CCCCCC*/
+	background-color: grey;
+	width: 100%;
+}
+
+.featured-title-container{
+	width: 1180px;	
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 100%;
+	align-items: center;
+}
+.featured-title-container h1{
+	padding: 30px 0;
+}
+.featured-part-container{
+	background-color: #FFFFFF;
+	/*background-color: grey;*/
+	height: 220px;
+	width: 570px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.image-footer-01{
+	width: 100px;
+	height: 130px;
+}
+
+.image-footer-02{
+	width: 85px;
+	height: 130px;
+}
+
+.featured-container{
+	width: 1180px;	
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	align-items: center;
+}
+
+/* footer*/
+
+footer{
+	height: 60px;
+	background-color: #FFFFFF;	
+}
+
+.footer-container{
+	width: 1180px;	
+	margin-left: auto;
+	margin-right: auto;	
+	height: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
